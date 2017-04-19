@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "grunt-combine-media-queries",
-    "description": "api documentation for [grunt-combine-media-queries (v1.0.20)](https://github.com/johncashmore/grunt-combine-media-queries) [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-combine-media-queries.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-combine-media-queries) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-combine-media-queries.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-combine-media-queries)",
+    "description": "#### api documentation for  [grunt-combine-media-queries (v1.0.20)](https://github.com/johncashmore/grunt-combine-media-queries)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-combine-media-queries.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-combine-media-queries) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-combine-media-queries.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-combine-media-queries)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "grunt-combine-media-queries": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
